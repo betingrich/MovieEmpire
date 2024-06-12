@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Movies - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://moviepire.net/logo.png" alt="MoviePire Logo" class="logo">
+        <nav>
+        <h1>Pocket Movies</h1>
+        <!-- Add the 'Advertise' link to the navigation menu -->
+<nav>
+    <a href="ads.html">Advertise</a>
+</nav>
+
+        <nav>
+            <a href="index.html" class="nav-button"><span class="icon">🎬</span>Trending</a>
+            <a href="tv.html" class="nav-button"><span class="icon">📺</span>TV</a>
+            <a href="categories.html" class="nav-button"><span class="icon">📚</span>Categories</a>
+            <a href="live.html" class="nav-button"><span class="icon">🔴</span>Live</a>
+            <a href="action.html" class="nav-button"><span class="icon">💥</span>Action</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search.." class="search-input">
+            <button class="search-button" onclick="searchMovie()">Search</button>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Google AdSense ad placement -->
+        <div class="ad-container">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Example Ad Unit -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                 data-ad-slot="YYYYYYYYYY"
+                 data-ad-format="auto"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        <section id="trending-movie">
+            <h2>Trending Movie of 2024</h2>
+            <div class="movie">
+                <img src="https://image.tmdb.org/t/p/w342/hkxxMIGaiCTmrEArK7J56JTKUlB.jpg" alt="">
+                <div class="movie-details">
+                    <h3>Godzilla Minus One</h3>
+                    <p>In postwar Japan, Godzilla brings new devastation to an already scorched landscape. With no military intervention or government help in sight, the survivors must join together in the face of despair and fight back against an unrelenting horror.</p>
+                    <a href="https://moviepire.net/watch/940721" target="_blank" class="watch-button">Watch Now</a>
+                </div>
+
+                <div class="movie">
+                    <img src="https://image.tmdb.org/t/p/w342/gKkl37BQuKTanygYQG1pyYgLVgf.jpg" alt="">
+                    <div class="movie-details">
+                        <h3>Kingdom of the Planet of the Apes</h3>
+                        <p>Several generations in the future following Caesar's reign, apes are now the dominant species and live harmoniously while humans have been reduced to living in the shadows. As a new tyrannical ape leader builds his empire, one young ape undertakes a harrowing journey that will cause him to question all that he has known about the past and to make choices that will define a future for apes and humans alike.</p>
+                        <a href="https://moviepire.net/watch/653346" target="_blank" class="watch-button">Watch Now</a>
+                    </div>
+
+                    
+
+            </div>
+        </section>
+
+        <section id="more-movies">
+            <h2>More Movies</h2>
+            <!-- Repeated movie entries for more movies -->
+            <div class="movie">
+                <img src="https://image.tmdb.org/t/p/w342/iADOJ8Zymht2JPMoy3R7xceZprc.jpg" alt="Movie 1 Poster">
+                <div class="movie-details">
+                    <h3>Furosa A Mad Max Saga</h3>
+                    <p>As the world fell, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus. 
+                        Sweeping through the Wasteland they come across the Citadel presided over by The Immortan Joe. While the two Tyrants war for dominance, 
+                        Furiosa must survive many trials as she puts together the means to find her way home.</p>
+                    <a href="https://moviepire.net/watch/786892" target="_blank" class="watch-button">Watch Now</a>
+                </div>
+
+                <div class="movie">
+                    <img src="https://image.tmdb.org/t/p/w342/mztdt3y6GBsJR69zHtszFezTCLT.jpg" alt="Movie 1 Poster">
+                    <div class="movie-details">
+                        <h3>The Acolyte</h3>
+                        <p>An investigation into a shocking crime spree pits a respected Jedi Master against a dangerous warrior from his past. As more clues emerge, they travel down a dark path where sinister forces reveal all is not what it seems.</p>
+                        <a href="https://moviepire.net/watch/114479?s=1&e=1" target="_blank" class="watch-button">Watch Now</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Add more movie entries as needed -->
+
+            <div class="movie">
+                <img src="https://image.tmdb.org/t/p/w342/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg" alt="Movie 1 Poster">
+                <div class="movie-details">
+                    <h3>The Green Mile</h3>
+                    <p>Paul Edgecomb didn't believe in miracles. Until the day he met one.
+                        A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.</p>
+                    <a href="https://moviepire.net/watch/497" target="_blank" class="watch-button">Watch Now</a>
+                </div>
+                <div class="movie">
+                    <img src="https://image.tmdb.org/t/p/w342/3bhkrj58Vtu7enYsRolD1fZdja1.jpg" alt="Movie 1 Poster">
+                    <div class="movie-details">
+                        <h3>The Godfather</h3>
+                        <p>Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.</p>
+                        <a href="https://moviepire.net/watch/238" target="_blank" class="watch-button">Watch Now</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="movie">
+                <img src="https://image.tmdb.org/t/p/w342/mPhVxedeais0wtR38JIcsJdqH5Z.jpg" alt="Movie 1 Poster">
+                <div class="movie-details">
+                    <h3>Alarm for Cobra 11: The Motorway Police</h3>
+                    <p>A long-running German television series about a two-man team of highway police, originally set in Berlin and later in North Rhine-Westphalia.</p>
+                    
+                    <a href="https://moviepire.net/watch/1338?s=1&e=1" target="_blank" class="watch-button">Watch Now</a>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="https://image.tmdb.org/t/p/w342/1126gjlBf4hTm9Sgf0ox3LGVEBt.jpg" alt="Movie 1 Poster">
+                <div class="movie-details">
+                    <h3>Hit Man</h3>
+                    <p>He's not a killer, but he can pretend.
+                        A mild-mannered professor moonlighting as a fake hit man in police stings ignites a chain reaction of trouble when he falls for a potential client.</p>
+                    <a href="https://moviepire.net/watch/974635" target="_blank" class="watch-button">Watch Now</a>
+                </div>
+            </div>
+
+            <div class="movie">
+                <img src="https://image.tmdb.org/t/p/w342/nP6RliHjxsz4irTKsxe8FRhKZYl.jpg" alt="Movie 2 Poster">
+                <div class="movie-details">
+                    <h3>Bad Boys: Ride or Die</h3>
+                    <p>Miami's finest are now its most wanted.
+                        After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.
+                        
+                        Genres:
+                        Action,
+                        
+                        Crime,
+                        
+                        Thriller
+                        </p>
+                    <a href="https://moviepire.net/watch/573435" target="_blank" class="watch-button">Watch Now</a>
+                </div>
+            </div>
+
+            <!-- Add more movie entries as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Designed with love By Marisel.</p>
+            <p>0740007567</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
